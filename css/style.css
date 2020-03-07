@@ -1,0 +1,480 @@
+/*@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans:400,600,700,700i&display=swap');
+/* ========================
+   Google font End
+   ========================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    scroll-behavior: smooth;
+    /*overflow-x: hidden;*/
+}
+body{
+	/*font-family: 'Merriweather Sans', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,img,ul,ol,li,navbar-brand{
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.tm-taitle h2{
+  font-weight: 700;
+  font-size: 35px; 
+}
+.ab-taitle h2{
+  font-weight: 700;
+  font-size: 35px; 
+}
+.srv-taitle h2{
+  font-weight: 700;
+  font-size: 35px;  
+}
+ .port-taitle h2{
+  font-weight: 700;
+  font-size: 35px;
+
+}
+/*taitle*/
+.ab-taitle img{
+  height: 90px;
+  margin-top: -9px;
+  padding-left: 20px;
+}
+.srv-taitle img{
+  height: 90px;
+  margin-top: -9px;
+  padding-left: 53px;
+ }
+ .port-taitle img{
+  height: 90px;
+  margin-top: -9px;
+  padding-left: 57px;
+ }
+.tm-taitle img{
+  height: 90px;
+  margin-top: -9px;
+  padding-left: 77px;
+ }
+/*=================================
+      HEADER PART IS START
+  ================================*/
+#header{
+	background: url(../img/banner1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.header-part{
+  position: relative;
+}
+.header-part .bnr-overlay{
+  background: rgba(0, 0, 0,.6);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 123, 255,.2);
+    background-color: rgba(0,0,0,.6);
+}
+#mainNav .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding: 0 1rem;
+    transition: all linear .3s;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+  color: rgba(0, 123, 255);
+}
+#mainNav .navbar-brand {
+    color: rgba(255,255,255,.7);
+    font-weight: 700;
+}
+.header-part .bnr-con1 h1{
+	margin-top: 200px;
+	font-size: 50px;
+	font-weight: 700;
+}
+.header-part .bnr-con2 p{
+	color: rgba(255,255,255,.75);
+	margin-top: 10px;
+  margin-bottom: 50px;
+}
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    margin-bottom: 100px;
+    outline: none;
+}
+#bnrBt{
+    background: rgba(244, 98, 58,.7);
+    color: #000;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 100px;
+    transition: all linear .3s;
+    box-sizing: border-box;
+    outline: none;
+}
+#bnrBt:hover{
+    background-image: linear-gradient( -82deg,#562467,#b95a5a,#085846);
+    color: #fff;
+}
+/*=================================
+      HEADER PART IS END
+  ================================*/
+
+/*=================================
+      ABOUT PART IS START
+  ================================*/
+#about{
+  padding-top: 100px;
+  background: #F8FAFB;
+}
+#carouselExampleIndicators{
+  box-shadow: 0 5px 20px rgba(0, 123, 255,.1);
+}
+.about-section .aboutSlider .carousel-control-prev-icon,
+.about-section .aboutSlider .carousel-control-next-icon{
+  background-image: none;
+}
+.about-section .aboutSlider .carousel-indicators li {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+.abButton button{
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: 1px solid #007bff;
+  font-family: 'Josefin Sans', sans-serif;
+  outline: none;
+}
+.abButton button:hover{
+  border-color: #007bff;
+  transition: all linear .3s;
+}
+.abButton .abt2{
+  background: #fff;
+}
+.abButton .abt2:hover{
+    background: #007bff;
+    color: #fff;
+}
+.abButton .abt1:hover{
+  background: #fff;
+  color: #000;
+}
+.abButton .abt1{
+  color: #fff;
+  background: #007bff;
+}
+.about-section .ab-left{
+  margin-bottom: 80px;
+}
+/*=================================
+      ABOUT PART IS END
+  ================================*/
+
+/*=================================
+      SERVICE PART IS START
+  ================================*/
+#services{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.service-items .sr-item .sr-icon{
+
+}
+.service-items .sr-item{
+  border-radius: 5px;
+  height: 260px;
+  width: 100%;
+  transition: all linear .3s;
+  position: relative;
+}
+.service-items .sr-item:hover{
+  box-shadow: 0 5px 20px rgba(0, 123, 255,.2);
+  border-right: 3px solid #007bff;
+}
+.service-items .sr-item p{
+  margin: 10px;
+}
+.service-items .sr-icon i{
+	font-size: 50px;
+	color: #007bff;
+}
+
+/*=================================
+      SERVICE PART IS END
+  ================================*/
+
+/*=================================
+      PORTFOLIO PART IS START
+  ================================*/
+.port-part{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background: #F8FAFB;
+}
+.port-part .port-items{
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border-radius: 10px;
+  transition: all linear .5s;
+  box-shadow: 0 5px 20px rgba(0,0,0,.3);
+}
+.port-part .port-items .port-image img{
+  height: 100%;
+  width: 100%;
+  transition: all linear 2s;
+}
+.port-part .port-overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(244, 98, 58,.7);
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all linear .5s;
+  opacity: 0;
+}
+.port-part .port-items:hover .port-overlay{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.port-part .port-items:hover .port-image img{
+  transform: translateY(-650px);
+}
+.port-part .portBtn a{
+  font-size: 50px;
+  color: rgba(0, 123, 255,.7);
+}
+/*=================================
+      PORTFOLIO PART IS END
+  ================================*/
+
+/*=================================
+      MY TEAM PART IS START
+  ================================*/
+#myTeam{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /*background: #262626;*/
+  /*background: rgba(0,0,0,.1);*/
+}
+.team-part .team-items{
+  height: 382px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  transition: .3s;
+}
+.team-part .team-items:hover{
+  box-shadow: 0 5px 20px rgba(0,0,0,.6);
+}
+.team-part .team-items .team-img{
+  height: 100%;
+  width: 100%;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  z-index: 1;
+}
+.team-items:hover .team-img{
+  transform: translateY(-80px);
+}
+.team-items .team-img img{
+  transition: 0.5s;
+}
+.team-items:hover .team-img img{
+  opacity: .6;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.team-items .team-socali{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.team-items .team-socali li{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #fff;
+  margin: 0 5px;
+  border-radius: 50px;
+  transition: 0.5s;
+  transform: translateY(163px);
+  opacity: 0;
+}
+.team-items .team-socali li a{
+  color: #262626;
+  display: block;
+  font-size: 24px;
+  line-height: 50px;
+}
+.team-items:hover .team-socali li{
+   transform: translateY(0px);
+   opacity: 1;
+}
+.team-items:hover .team-socali li a i{
+  transition: 1s;
+
+}.team-items:hover .team-socali li a:hover i{
+  transform: rotateY(369deg);
+}
+.team-items:hover .team-socali li:nth-child(1){
+  transition-delay: .4s;
+}
+.team-items:hover .team-socali li:nth-child(2){
+  transition-delay: 0.2s;
+}
+.team-items:hover .team-socali li:nth-child(3){
+  transition-delay: 0s;
+}
+.team-items:hover .team-socali li:nth-child(4){
+  transition-delay: 0.2s;
+}
+.team-items:hover .team-socali li:nth-child(5){
+  transition-delay: .4s;
+}
+.team-items .details{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.team-items .details h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0;
+}
+.team-items .details h2 span{
+  color: #bbb;
+  font-size: 16px;
+}
+/*=================================
+      MY TEAM PART IS END
+  ================================*/
+
+
+/*=================================
+      CONTACT PART IS START
+  ================================*/
+#contact{
+  background: #030f15;
+  color: #ffff;
+}
+.contact-items .little-nav ul li a{
+  margin: 10px;
+  color: #ffff;
+  transition: all linear .3s;
+}
+.contact-items .little-nav ul li a:hover{
+  color: #007bff;
+}
+.contact-items .socail-media ul li a{
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+  font-size: 18px;
+  color: #007bff;
+  background: #ffff;
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all linear .3s;
+  border: 1px solid #007bff;
+}
+.contact-items .socail-media ul li a:hover {
+  border: 1px solid #ffff;
+  background: #007bff;
+  color: #fff;
+}
+/*=================================
+      CONTACT PART IS END
+  ================================*/
+
+/*=================================
+      FOOTER PART IS START
+  ================================*/
+#Footer{
+  background: #030f15;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+.footer-part{
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-part i{
+  font-size: 20px;
+  color: darkred;
+}
+/*=================================
+      FOOTER PART IS END
+  ================================*/
+

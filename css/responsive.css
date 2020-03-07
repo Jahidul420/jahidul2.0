@@ -1,0 +1,176 @@
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.header-part .bnr-con1 h1 {
+    margin-top: 100px; 
+    font-size: 20px;
+}
+.header-part .bnr-con2 p {
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+#bnrBt {
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+/*banner end*/
+/*about start*/
+#about {
+    padding-top: 30px;
+}
+.ab-taitle h2 {
+    font-size: 22px;
+}
+.ab-taitle img {
+    height: 0px;
+    visibility: hidden;
+}
+.about-section .aboutSlider{
+    width: 85%;
+    margin: auto;
+}
+.about-section .ab-left{
+    width: 85%;
+    margin: auto;
+}
+.about-section .ab-left h2{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.ab-left p{
+	text-align: justify;
+    font-size: 10px;
+}
+
+
+.abButton button{
+	height: 30px;
+    width: 100px;
+    font-size: 12px; 
+}
+/*.abButton{
+    margin: auto;
+}*/
+.about-section .ab-left {
+    margin-bottom: 20px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+
+/*about end*/
+/*service start*/
+
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.srv-taitle img{
+    height: 0px;
+    visibility: hidden;
+}
+.srv-taitle h2 {
+    font-size: 22px;
+}
+.service-items .sr-item {
+    width: 300px;
+    margin: auto;
+}
+/*service end*/
+
+/*portfolin start*/
+
+.port-part {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.port-taitle h2 {
+    font-size: 22px;
+}
+.port-taitle img{
+	height: 0px;
+    visibility: hidden;
+}
+.port-part .port-items {
+    height: 370px;
+    margin-bottom: 20px;
+    /*width: 325px;*/
+    /*margin-left: 15%;*/
+}
+.port-part .portBtn a {
+    font-size: 25px;
+}
+
+/*portfolio end*/
+/*team start*/
+#myTeam {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tm-taitle h2 {
+    font-size: 22px;
+}
+.tm-taitle img{
+    height: 0px;
+    visibility: hidden;
+}
+.team-part .team-items {
+    height: 316px;
+    width: 289px;
+    margin-bottom: 20px;
+    /*margin-left: 21%;*/
+}
+/*team end*/
+.contact-items .little-nav{
+	height: 0px;
+	width: 0px;
+	margin: auto;
+	overflow: hidden;
+}
+.team-items .team-socali li{
+  height: 45px;
+  width: 45px;
+}
+.team-items .team-socali li a{
+  color: #262626;
+  display: block;
+  font-size: 24px;
+  line-height: 50px;
+}
+.contact-items .socail-media ul li{
+	height: 45px;
+	width: 45px;
+	margin: 5px;
+}
+
+
+
+
+
+
+ 						}
+
+
+
+
